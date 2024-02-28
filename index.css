@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /************************ GRAPH 1 *****************/
+  .graphique1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 2rem;
+  }
+  .graph1 {
+    height: 30vh;
+    width: 2rem;
+    background-color: red;
+    margin-left: 2rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  
+  .graph2 {
+    height: 30vh;
+    width: 2rem;
+    background-color: blue;
+    margin-left: 2rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  
+  .graph3 {
+    height: 30vh;
+    width: 2rem;
+    background-color: green;
+    margin-left: 2rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  
+  .graph4 {
+    height: 30vh;
+    width: 2rem;
+    background-color: yellow;
+    margin-left: 2rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  
+  /************************ GRAPH2  *****************/
+  
+  .graphique2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2rem;
+  }
+  .horizontale1 {
+    height: 2rem;
+    width: 10vh;
+    background-color: red;
+    margin-left: 2rem;
+    display: flex;
+    align-items: flex-end;
+    margin-top: 2rem;
+  }
+  
+  .horizontale2 {
+    height: 2rem;
+    width: 39vh;
+    background-color: blue;
+    margin-left: 2rem;
+    display: flex;
+    align-items: flex-end;
+    margin-top: 2rem;
+  }
+  
+  .horizontale3 {
+    height: 2rem;
+    width: 32vh;
+    background-color: green;
+    margin-left: 2rem;
+    display: flex;
+    align-items: flex-end;
+    margin-top: 2rem;
+  }
+  
+  .horizontale4 {
+    width: 22vh;
+    height: 2rem;
+    background-color: yellow;
+    margin-left: 2rem;
+    display: flex;
+    align-items: flex-end;
+    margin-top: 2rem;
+  }
+  
+  /************************ GRAPH3  *****************/
+  
+  .graphique3 {
+    margin-top: 2rem;
+    display: block;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-image: conic-gradient(red 70deg, blue 0 235deg, green 0);
+  }
+  
